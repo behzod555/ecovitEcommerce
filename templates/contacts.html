@@ -1,0 +1,227 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ecovit</title>
+    <link rel="stylesheet" href="{% static 'css/main.min.css' %}">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header id="header" class="header">
+            <div class="subheader">
+                <div class="container subheader__container">
+                    <ul class="socials-list">
+                        <li class="socials-list__item">
+                            <a class="socials-list__link" href="#">
+                                <picture>
+                                    <source srcset="{% static 'img/inst.svg'%}" type="image/webp"><img
+                                        src="{% static 'img/inst.svg'%}" alt="inst">
+                                </picture>
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a class="socials-list__link" href="#">
+                                <picture>
+                                    <source srcset="{% static 'img/telegram.svg'%}" type="image/webp"><img
+                                        src="{% static 'img/telegram.svg'%}" alt="telegram">
+                                </picture>
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a class="socials-list__link" href="#">
+                                <picture>
+                                    <source srcset="{% static 'img/wp.svg'%}" type="image/webp"><img
+                                        src="{% static 'img/wp.svg'%}" alt="wp">
+                                </picture>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="subheader__text"><span>Доставка</span> по всей России</div>
+                    <div class="subheader__number">
+                        <a href="tel:79230156541">+7 923 0156541</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <nav class="nav--product nav">
+                <div class="nav__container container">
+                    <a href="#" class="logo">
+                        <svg width="160" height="40" viewBox="0 0 160 40" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.0431 33.7107C17.4875 33.7107 18.76 33.5094 19.8605 33.1069C20.0153 33.0474 20.1685 32.9836 20.3201 32.9154C21.9626 32.1763 24.0101 32.1551 25.2452 33.4613C26.4019 34.6846 26.4492 36.6317 25.051 37.5728C22.647 39.1909 19.5756 40 15.8368 40C12.7073 40 9.93884 39.413 7.53151 38.239C5.12418 37.0314 3.26709 35.3711 1.96026 33.2579C0.653419 31.1447 0 28.7463 0 26.0629C0 23.413 0.636223 21.0314 1.90867 18.9182C3.21551 16.7715 4.98662 15.1111 7.22199 13.9371C9.49177 12.7296 12.0367 12.1258 14.8567 12.1258C17.5047 12.1258 19.9121 12.6792 22.0787 13.7862C24.2453 14.8595 25.9648 16.4361 27.2372 18.5157C27.9047 19.5608 28.4017 20.7064 28.7283 21.9527C29.3015 24.1404 27.5814 26.1163 25.3485 26.5376L8.66639 29.6855C9.25103 31.0273 10.1624 32.0335 11.4004 32.7044C12.6729 33.3753 14.2205 33.7107 16.0431 33.7107ZM14.8567 18.0629C12.8276 18.0629 11.1769 18.7002 9.90445 19.9748C8.632 21.2495 7.96139 23.0105 7.89261 25.2579L21.4081 22.6918C21.0298 21.283 20.256 20.1593 19.0867 19.3208C17.9174 18.4822 16.5074 18.0629 14.8567 18.0629Z"
+                                fill="#7ABC51" />
+                            <path
+                                d="M48.019 40C45.0614 40 42.3962 39.413 40.0232 38.239C37.6847 37.0314 35.8448 35.3711 34.5036 33.2579C33.1967 31.1447 32.5433 28.7463 32.5433 26.0629C32.5433 23.3795 33.1967 20.9811 34.5036 18.8679C35.8448 16.7547 37.6847 15.1111 40.0232 13.9371C42.3962 12.7296 45.0614 12.1258 48.019 12.1258C50.9422 12.1258 53.4871 12.7296 55.6537 13.9371C56.7737 14.5345 57.7379 15.2666 58.5463 16.1333C59.8793 17.5626 59.1011 19.7262 57.367 20.6348C55.603 21.5591 53.4977 20.7789 51.8432 19.6724C50.7403 18.9348 49.4484 18.566 47.9674 18.566C45.8696 18.566 44.1329 19.2369 42.7573 20.5786C41.3817 21.9203 40.6938 23.7484 40.6938 26.0629C40.6938 28.3774 41.3817 30.2055 42.7573 31.5472C44.1329 32.8889 45.8696 33.5597 47.9674 33.5597C49.449 33.5597 50.7362 33.1998 51.8288 32.4799C53.4982 31.3801 55.6192 30.5866 57.3848 31.5259C59.1064 32.4418 59.857 34.6014 58.5157 36.0127C57.7136 36.8566 56.7596 37.5819 55.6537 38.1887C53.4871 39.3962 50.9422 40 48.019 40Z"
+                                fill="#7ABC51" />
+                            <path
+                                d="M77.9379 40C75.0147 40 72.3838 39.413 70.0453 38.239C67.7411 37.0314 65.9356 35.3711 64.6288 33.2579C63.322 31.1447 62.6685 28.7463 62.6685 26.0629C62.6685 23.3795 63.322 20.9811 64.6288 18.8679C65.9356 16.7547 67.7411 15.1111 70.0453 13.9371C72.3838 12.7296 75.0147 12.1258 77.9379 12.1258C80.8611 12.1258 83.4748 12.7296 85.7789 13.9371C88.0831 15.1111 89.8886 16.7547 91.1954 18.8679C92.5022 20.9811 93.1557 23.3795 93.1557 26.0629C93.1557 28.7463 92.5022 31.1447 91.1954 33.2579C89.8886 35.3711 88.0831 37.0314 85.7789 38.239C83.4748 39.413 80.8611 40 77.9379 40ZM77.9379 33.5597C80.0013 33.5597 81.6865 32.8889 82.9933 31.5472C84.3345 30.1719 85.0051 28.3438 85.0051 26.0629C85.0051 23.782 84.3345 21.9706 82.9933 20.6289C81.6865 19.2537 80.0013 18.566 77.9379 18.566C75.8745 18.566 74.1721 19.2537 72.8309 20.6289C71.4897 21.9706 70.8191 23.782 70.8191 26.0629C70.8191 28.3438 71.4897 30.1719 72.8309 31.5472C74.1721 32.8889 75.8745 33.5597 77.9379 33.5597Z"
+                                fill="#7ABC51" />
+                            <path
+                                d="M119.929 12.5283C122.482 12.5283 124.202 15.1268 123.193 17.4594L115.256 35.8062C114.261 38.1068 111.985 39.5975 109.467 39.5975C106.945 39.5975 104.667 38.1026 103.674 35.797L95.9232 17.8012C94.848 15.3049 96.6888 12.5283 99.4188 12.5283C100.956 12.5283 102.342 13.4486 102.931 14.8607L109.644 30.9434L116.665 14.6687C117.225 13.3701 118.509 12.5283 119.929 12.5283Z"
+                                fill="#7ABC51" />
+                            <path
+                                d="M128.61 16.531C128.61 14.3204 130.411 12.5283 132.633 12.5283C134.855 12.5283 136.657 14.3204 136.657 16.531V35.5948C136.657 37.8054 134.855 39.5975 132.633 39.5975C130.411 39.5975 128.61 37.8054 128.61 35.5948V16.531ZM132.633 8.75472C131.154 8.75472 129.951 8.33543 129.022 7.49686C128.094 6.65828 127.629 5.61845 127.629 4.37736C127.629 3.13627 128.094 2.09644 129.022 1.25786C129.951 0.419288 131.154 0 132.633 0C134.112 0 135.316 0.402517 136.244 1.20755C137.173 2.01258 137.637 3.01887 137.637 4.22642C137.637 5.53459 137.173 6.62474 136.244 7.49686C135.316 8.33543 134.112 8.75472 132.633 8.75472Z"
+                                fill="#7ABC51" />
+                            <path
+                                d="M159.744 35.4244C160.391 37.115 159.806 39.0795 158.052 39.5568C158.002 39.5706 157.95 39.5842 157.899 39.5975C156.764 39.8658 155.578 40 154.34 40C151.004 40 148.442 39.1782 146.653 37.5346C144.865 35.891 143.971 33.4759 143.971 30.2893V10.5436C143.971 8.33294 145.772 6.54088 147.994 6.54088C150.217 6.54088 152.018 8.33295 152.018 10.5436V13.1321H155.844C157.52 13.1321 158.879 14.4837 158.879 16.1509C158.879 17.8182 157.52 19.1698 155.844 19.1698H152.018V30.1887C152.018 31.3291 152.31 32.218 152.895 32.8553C153.48 33.4591 154.322 33.761 155.423 33.761C155.639 33.761 155.852 33.7507 156.06 33.7302C157.51 33.5872 159.227 34.0698 159.744 35.4244Z"
+                                fill="#7ABC51" />
+                        </svg>
+                    </a>
+                    <ul class="nav__menu menu">
+                        <li class="nav__menu-item menu__item">
+                            <a href="{% url 'store' %}" class="nav__menu-link menu__link">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav__menu-item menu__item">
+                            <a href="{% url 'products' %}" class="nav__menu-link menu__link">КАТАЛОГ</a>
+                        </li>
+                        <li class="nav__menu-item menu__item">
+                            <a href="{% url 'comments' %}" class="nav__menu-link menu__link">ОТЗЫВЫ</a>
+                        </li>
+                        <li class="nav__menu-item menu__item menu__item--active">
+                            <a href="{% url 'contacts' %}" class="nav__menu-link menu__link">ДОСТАВКА</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+            <section class="delivery">
+                <div class="container delivery__container">
+                    <div class="delivery__info">
+                        <h3 class="delivery__title">Доставляем в любую точку России!</h3>
+                        <div class="delivery__text">
+                            <p>Доставка осуществляется через СДЭК
+                                и оплату оплачивает клиент при получении товара</p>
+                            <p>Цена за доставку зависит от вашего местонахождения
+                                И варируется между <span>300-1200</span> рублей</p>
+                        </div>
+                        <a href="{% url 'products' %}" class="btn-hover delivery__btn-link">ПЕРЕЙТИ К ТОВАРАМ</a>
+                    </div>
+                    <div class="delivery__img">
+                        <picture>
+                            <source srcset="{% static 'img/delivery.svg'%}" type="image/webp"><img
+                                src="{% static 'img/delivery.svg'%}" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+            <div class="contacts">
+                <div class="container contacts__container">
+                    <h3 class="contacts__title">Контакты</h3>
+                    <p class="contacts__text">
+                        По поводу предложении звонить по номеру:
+                        <a href="tel:79564542112" class="contacts__num">+7 (956) 454 21 12</a>
+                    </p>
+                    <p class="contacts__text">Так же вы можете написать нам через социальные сети.</p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__copyright">© ecovit 2022 / Copyright</div>
+                <a href="{% url 'store' %}" class="footer__logo">
+                    <picture>
+                        <source srcset="{% static 'img/logo-white.svg'%}" type="image/webp"><img
+                            src="{% static 'img/logo-white.svg'%}" alt="logo">
+                    </picture>
+                </a>
+                <ul class="socials-list">
+                    <li class="socials-list__item">
+                        <a class="socials-list__link" href="#">
+                            <picture>
+                                <source srcset="{% static 'img/inst.svg'%}" type="image/webp"><img
+                                    src="{% static 'img/inst.svg'%}" alt="inst">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="socials-list__item">
+                        <a class="socials-list__link" href="#">
+                            <picture>
+                                <source srcset="{% static 'img/telegram.svg'%}" type="image/webp"><img
+                                    src="{% static 'img/telegram.svg'%}" alt="telegram">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="socials-list__item">
+                        <a class="socials-list__link" href="#">
+                            <picture>
+                                <source srcset="{% static 'img/wp.svg'%}" type="image/webp"><img
+                                    src="{% static 'img/wp.svg'%}" alt="wp">
+                            </picture>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!-- скролл -->
+        <div id="scroll-up" class="scroll-up">
+            <a href="#header">
+                <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 11L13.4142 2.41421C12.6332 1.63317 11.3668 1.63316 10.5858 2.41421L2 11" stroke="white"
+                        stroke-width="3" stroke-linecap="round" />
+                </svg>
+            </a>
+        </div>
+        <!-- //скролл -->
+        <!-- меню бургер -->
+        <div class="popup-menu-wrapp">
+            <ul class="popup-menu">
+                <li class="popup-menu__item">
+                    <a href="{% url 'store' %}" class="popup-menu__link">ГЛАВНАЯ</a>
+                </li>
+                <li class="popup-menu__item">
+                    <a href="{% url 'products' %}" class="popup-menu__link">КАТАЛОГ</a>
+                </li>
+                <li class="popup-menu__item">
+                    <a href="{% url 'comments' %}" class="popup-menu__link">ОТЗЫВЫ</a>
+                </li>
+                <li class="popup-menu__item">
+                    <a href="{% url 'contacts' %}" class="popup-menu__link popup-menu__link--active">ДОСТАВКА</a>
+                </li>
+            </ul>
+            <ul class="socials-list">
+                <li class="socials-list__item">
+                    <a class="socials-list__link" href="#">
+                        <picture>
+                            <source srcset="{% static 'img/inst.svg'%}" type="image/webp"><img
+                                src="{% static 'img/inst.svg'%}" alt="inst">
+                        </picture>
+                    </a>
+                </li>
+                <li class="socials-list__item">
+                    <a class="socials-list__link" href="#">
+                        <picture>
+                            <source srcset="{% static 'img/telegram.svg'%}" type="image/webp"><img
+                                src="{% static 'img/telegram.svg'%}" alt="telegram">
+                        </picture>
+                    </a>
+                </li>
+                <li class="socials-list__item">
+                    <a class="socials-list__link" href="#">
+                        <picture>
+                            <source srcset="{% static 'img/wp.svg'%}" type="image/webp"><img
+                                src="{% static 'img/wp.svg'%}" alt="wp">
+                        </picture>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- //меню бургер -->
+    </div>
+    <script src="{% static 'js/main.js'%}"></script>
+    <script src="{% static 'js/cart.js'%}"></script>
+</body>
+
+</html>
